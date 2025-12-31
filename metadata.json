@@ -1,0 +1,7 @@
+{
+  "name": "EduTrack Pro: Academic & Assessment Monitor",
+  "description": "A comprehensive system for vetting school exercises, tracking SBA/CATs, and classifying learners for interventions across JHS, LBS, and UBS levels.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
