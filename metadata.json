@@ -1,0 +1,5 @@
+{
+  "name": "EduSched Pro: Automated School Timetable System",
+  "description": "A comprehensive automated school timetable generator for five departments (Creche to JHS) with automated clash detection, stream management (A, B, C), and teacher constraint management.",
+  "requestFramePermissions": []
+}
