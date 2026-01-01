@@ -1,0 +1,20 @@
+{
+  "name": "master-academicsupervision",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "SCHOOL-TIME-TABLE-MANAGEMENT-b",
+    "academic-assessment-b"
+  ],
+  "scripts": {
+    "dev:schedule": "npm run dev -w SCHOOL-TIME-TABLE-MANAGEMENT-b",
+    "dev:assessment": "npm run dev -w academic-assessment-b",
+    "dev:all": "concurrently \"npm run dev:schedule\" \"npm run dev:assessment\"",
+    "build:all": "npm run build --workspaces",
+    "preview:schedule": "npm run preview -w SCHOOL-TIME-TABLE-MANAGEMENT-b",
+    "preview:assessment": "npm run preview -w academic-assessment-b"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
